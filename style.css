@@ -1,0 +1,140 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+#app{ 
+  width: 1000px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 107pix;
+  margin-bottom: 110px;
+}
+
+#logo{
+  color: #89C5CC;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 48px;
+}
+
+a{
+  color: #1F1534;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover{
+  color:  #1F1534;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h1{
+  color: #000;
+  font-family: Mulish;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 114.286% */
+}
+h1 span{
+  color: #89C5CC;
+  font-family: Mulish;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+#hero p{
+  color: #7D7987;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero p span{
+  color: #7D7987;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+button{
+  display: inline-flex;
+  height: 56px;
+  padding: 14px 32px 15px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+  border-radius: 4px;
+  background:  #69B99D;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+button span{
+  color:  #F9F9F9;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+footer{
+  text-align: center;
+  margin-top:82px ;
+}
+footer p{
+  color: #000;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+}
+footer p span{
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
