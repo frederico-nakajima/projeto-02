@@ -1,4 +1,4 @@
-<h1 align="center">Projeto 02 </h1>
+<h1 align="center">Treine-me </h1>
 
 
 
